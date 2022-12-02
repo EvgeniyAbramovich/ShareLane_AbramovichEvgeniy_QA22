@@ -37,7 +37,7 @@ public class ShareLaneTests {
     }
 
     @Test
-    public void secondTest() {
+    public void zipCodeNegativeTest() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -53,7 +53,7 @@ public class ShareLaneTests {
     }
 
     @Test
-    public void thirdTest() {
+    public void logInPositiveTest() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -81,7 +81,7 @@ public class ShareLaneTests {
     }
 
     @Test
-    public void fourthTest() {
+    public void logInNegativeTest() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
